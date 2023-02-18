@@ -1,0 +1,23 @@
+
+<h1>Validate Credit Card</h1><br />
+<div class="row">
+  <div class="col-md-6">
+    <input type="text" class="form-control" placeholder="Credit Card Number" [(ngModel)]="creditCard" (keypress)="isNumber($event)" />
+  </div>
+  <div class="col-md-6" style="text-align: Left;">
+    <button type="button" class="btn btn-primary" (click)="validate()">Check</button>
+  </div>
+</div><br /><br />
+<div class="row">
+  <div class="col-md-2">
+    <p>{{validationResult.CardType}}</p>
+  </div>
+  <div class="col-md-3">
+    <p>{{validationResult.CardNumber}}</p>
+  </div>
+  <div class="col-md-2">
+    <p>{{validationResult.Validity}}</p>
+  </div>
+  <div class="col-md-5">
+  </div>
+</div>
