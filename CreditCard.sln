@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.1500
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCard.Core.Service", "Application Tier\Service Layer\CreditCard.Core.Service\CreditCard.Core.Service.csproj", "{1106510B-D6F5-473E-B679-4670E7ED2132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCard.Core.Service.Tests", "Application Tier\Service Layer\CreditCard.Core.Service.Tests\CreditCard.Core.Service.Tests.csproj", "{913F9872-EDCF-4733-894B-48AC11BA64B8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{20D3C49B-915C-4B61-8F86-10D4BA51E5DD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{AC05B71F-1793-4BC8-90FC-AF9D3E672908}"
@@ -27,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Tier", "Applica
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Tier", "Presentation Tier", "{CB1BFB6C-F7B3-4E53-86C4-1F14BDB7E1AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCard.Web.UI", "Presentation Tier\CreditCard.Web.UI\CreditCard.Web.UI.csproj", "{CAF63272-928F-4856-B0D9-A97022DCA130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreditCard.Web.UI", "Presentation Tier\CreditCard.Web.UI\CreditCard.Web.UI.csproj", "{CAF63272-928F-4856-B0D9-A97022DCA130}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +37,6 @@ Global
 		{1106510B-D6F5-473E-B679-4670E7ED2132}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1106510B-D6F5-473E-B679-4670E7ED2132}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1106510B-D6F5-473E-B679-4670E7ED2132}.Release|Any CPU.Build.0 = Release|Any CPU
-		{913F9872-EDCF-4733-894B-48AC11BA64B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{913F9872-EDCF-4733-894B-48AC11BA64B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{913F9872-EDCF-4733-894B-48AC11BA64B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{913F9872-EDCF-4733-894B-48AC11BA64B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A5F3011-CE19-4EE9-9248-3C1ABD2D9381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A5F3011-CE19-4EE9-9248-3C1ABD2D9381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A5F3011-CE19-4EE9-9248-3C1ABD2D9381}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -73,7 +67,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1106510B-D6F5-473E-B679-4670E7ED2132} = {20D3C49B-915C-4B61-8F86-10D4BA51E5DD}
-		{913F9872-EDCF-4733-894B-48AC11BA64B8} = {20D3C49B-915C-4B61-8F86-10D4BA51E5DD}
 		{20D3C49B-915C-4B61-8F86-10D4BA51E5DD} = {7016F803-8C30-4126-AF91-30BC1CCAC713}
 		{AC05B71F-1793-4BC8-90FC-AF9D3E672908} = {7016F803-8C30-4126-AF91-30BC1CCAC713}
 		{7A5F3011-CE19-4EE9-9248-3C1ABD2D9381} = {AC05B71F-1793-4BC8-90FC-AF9D3E672908}
